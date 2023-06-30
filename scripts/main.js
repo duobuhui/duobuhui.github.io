@@ -1,5 +1,6 @@
-let myImage = document.querySelector('img');
 
+//点击图片切换模块
+let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/mixfold2-duobuhui.png') {
@@ -9,6 +10,8 @@ myImage.onclick = function() {
     }
 }
 
+
+//切换账号模块
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 function setUserName() {
