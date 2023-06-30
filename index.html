@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <title>My test page</title>
+    <title>多不会的 Web 学习站点</title>
+    <link rel="icon" href="favicon.ico" type="image/duobuhui.ico" />
     <link href="styles/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,16 +11,29 @@
   </head>
   <body>
     <img src="images/mixfold2-duobuhui.png" alt="My test image">
-    <h1><a href="https://space.bilibili.com/13362017">duobuhui</a>'s website</h1>
-    <p>this is the first paragraph of my site</p>
+    <h1>duobuhui's website</h1>
+    <!-- 使用 disabled 属性来防止终端用户输入文本到输入框中 -->
+    <input type="text" disabled />
+    <!-- 下面这个输入框不包含 disabled 属性，所以用户可以向其中输入 -->
+    <input type="text" />
+    <p>我在注释外！</p>
+    <!-- <p>我在注释内！</p> -->
+    <p>如果你想将英文引号（单引号或双引号）当作文本显示在 html 中,
+      你就必须使用 HTML 实体引用。title='Isn&apos;t this fun?'</p>
+    <p>你可以通过以下方式联系到我</p>
     <ul>
-      这是一个无序列表
-      <li>student</li>
-      <li>learning web</li>
+      <li>QQ</li>
+      <li>
+        <a href="https://space.bilibili.com/13362017" target="_blank" title="点击跳转到bilibili">
+          Bilibili
+        </a>
+      </li>
+      <li>Kook</li>
+      <li>Discord</li>
     </ul>
     <ol>
-      这是一个有序列表
-      <li>student</li>
+      遇到难点的地方
+      <li>ico</li>
       <li>learning web</li>
     </ol>
     <button>切换用户</button>
